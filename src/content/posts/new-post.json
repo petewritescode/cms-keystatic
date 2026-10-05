@@ -1,0 +1,4 @@
+{
+  "title": "New post",
+  "content": "This should inline my **Markdown** content rather than putting it in a separate file\n"
+}
