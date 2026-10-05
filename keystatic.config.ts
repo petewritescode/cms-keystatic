@@ -1,24 +1,24 @@
-import { config, fields, collection } from '@keystatic/core';
+import { config, fields, collection } from "@keystatic/core";
 
 export default config({
   storage: {
-    kind: 'github',
-    repo: 'petewritescode/cms-keystatic',
+    kind: "github",
+    repo: "petewritescode/cms-keystatic",
   },
   collections: {
     posts: collection({
-      label: 'Posts',
-      slugField: 'title',
-      path: 'src/content/posts/*',
-      format: { contentField: 'content' },
+      label: "Posts",
+      slugField: "title",
+      path: "src/content/posts/*",
+      format: { data: "json" },
       schema: {
-        title: fields.slug({ name: { label: 'Title' } }),
-        content: fields.markdoc({
-          label: 'Content',
+        title: fields.slug({ name: { label: "Title" } }),
+        content: fields.markdoc.inline({
+          label: "Content",
           options: {
             image: {
-              directory: 'src/assets/images/posts',
-              publicPath: '../../assets/images/posts/',
+              directory: "src/assets/images/posts",
+              publicPath: "../../assets/images/posts/",
             },
           },
         }),
