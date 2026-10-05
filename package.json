@@ -1,11 +1,18 @@
 {
-  "name": "@keystatic/templates-astro",
+  "name": "cms-keystatic",
   "version": "0.0.73",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/Thinkmill/keystatic/",
     "directory": "templates/astro"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
     "@astrojs/markdoc": "^2.0.1",
