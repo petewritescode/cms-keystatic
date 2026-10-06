@@ -33,7 +33,7 @@
           {
             "discriminant": "richText",
             "value": {
-              "text": "Rich text!\n"
+              "text": "Rich **text**!\n"
             }
           }
         ]
