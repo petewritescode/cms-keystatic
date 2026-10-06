@@ -3,10 +3,8 @@
     {
       "discriminant": "image",
       "value": {
-        "image": {
-          "asset": "https://picsum.photos/1000/500",
-          "alt": "ADAS hero"
-        }
+        "asset": "https://picsum.photos/1000/500",
+        "alt": "ADAS hero"
       }
     },
     {
@@ -36,10 +34,8 @@
           {
             "discriminant": "image",
             "value": {
-              "image": {
-                "asset": "https://picsum.photos/200/300",
-                "alt": "ADAS feature image"
-              }
+              "asset": "https://picsum.photos/200/300",
+              "alt": "ADAS feature image"
             }
           }
         ]
