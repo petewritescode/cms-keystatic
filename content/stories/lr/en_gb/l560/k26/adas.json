@@ -1,0 +1,10 @@
+{
+  "blocks": [
+    {
+      "discriminant": "heading",
+      "value": {
+        "text": "Heading"
+      }
+    }
+  ]
+}
