@@ -1,0 +1,49 @@
+{
+  "blocks": [
+    {
+      "discriminant": "image",
+      "value": {
+        "image": {
+          "asset": "https://picsum.photos/1000/500",
+          "alt": "ADAS hero"
+        }
+      }
+    },
+    {
+      "discriminant": "heading",
+      "value": {
+        "text": "ADAS"
+      }
+    },
+    {
+      "discriminant": "richText",
+      "value": {
+        "text": "Here's some **rich text** telling your just how *great* ADAS is! Take a look at [my config](https://buildyour.landrover.com/lr/en_gb/l560_k2675/4d40s/ipr/personalise/model/).\n"
+      }
+    },
+    {
+      "discriminant": "twoColumn",
+      "value": {
+        "start": [
+          {
+            "discriminant": "richText",
+            "value": {
+              "text": "Left hand column content.\n"
+            }
+          }
+        ],
+        "end": [
+          {
+            "discriminant": "image",
+            "value": {
+              "image": {
+                "asset": "https://picsum.photos/200/300",
+                "alt": "ADAS feature image"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
